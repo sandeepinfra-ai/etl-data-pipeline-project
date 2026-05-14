@@ -1,0 +1,5 @@
+customer_id,name,age,city,age_category
+1,John,25,New York,Young
+2,Alice,30,Chicago,Adult
+3,Bob,35,Houston,Adult
+4,David,40,Seattle,Adult
