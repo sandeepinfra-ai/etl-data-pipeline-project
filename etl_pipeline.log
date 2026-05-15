@@ -40,3 +40,7 @@
 2026-05-15 18:10:29,297 - INFO - Data Extracted Successfully
 2026-05-15 18:10:29,409 - INFO - Data Transformed Successfully
 2026-05-15 18:10:30,177 - INFO - Data Loaded Successfully
+2026-05-15 19:35:20,004 - INFO - ETL Pipeline Started
+2026-05-15 19:35:20,150 - INFO - Data Extracted Successfully
+2026-05-15 19:35:20,266 - INFO - Data Transformed Successfully
+2026-05-15 19:35:25,620 - INFO - Data Loaded Successfully

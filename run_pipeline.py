@@ -1,7 +1,7 @@
 from scripts.extract import extract_data
 from scripts.transform import transform_data
 from scripts.load import load_data
-from logger import log_message
+from config.logger import log_message
 
 try:
     log_message("ETL Pipeline Started")
