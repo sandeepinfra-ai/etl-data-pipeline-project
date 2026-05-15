@@ -1,0 +1,42 @@
+2026-05-15 17:26:02,640 - INFO - ETL Pipeline Started
+2026-05-15 17:26:02,667 - INFO - Data Extracted Successfully
+2026-05-15 17:26:02,743 - INFO - Data Transformed Successfully
+2026-05-15 17:26:03,405 - INFO - Data Loaded Successfully
+2026-05-15 17:31:50,771 - INFO - ETL Pipeline Started
+2026-05-15 17:31:50,886 - INFO - Data Extracted Successfully
+2026-05-15 17:31:50,991 - INFO - Data Transformed Successfully
+2026-05-15 17:31:52,035 - INFO - Data Loaded Successfully
+2026-05-15 17:36:18,327 - INFO - ETL Pipeline Started
+2026-05-15 17:36:18,471 - INFO - Data Extracted Successfully
+2026-05-15 17:36:18,684 - INFO - Data Transformed Successfully
+2026-05-15 17:36:18,745 - INFO - Error occurred: (psycopg2.OperationalError) could not translate host name "123@localhost" to address: Non-recoverable failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-15 17:41:47,788 - INFO - ETL Pipeline Started
+2026-05-15 17:41:47,808 - INFO - Data Extracted Successfully
+2026-05-15 17:41:47,837 - INFO - Data Transformed Successfully
+2026-05-15 17:41:47,889 - INFO - Error occurred: (psycopg2.OperationalError) could not translate host name "123@localhost" to address: Non-recoverable failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-15 17:44:27,965 - INFO - ETL Pipeline Started
+2026-05-15 17:44:28,007 - INFO - Data Extracted Successfully
+2026-05-15 17:44:28,075 - INFO - Data Transformed Successfully
+2026-05-15 17:44:28,113 - INFO - Error occurred: (psycopg2.OperationalError) could not translate host name "123@localhost" to address: Non-recoverable failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-15 17:48:04,237 - INFO - ETL Pipeline Started
+2026-05-15 17:48:04,371 - INFO - Data Extracted Successfully
+2026-05-15 17:48:04,462 - INFO - Data Transformed Successfully
+2026-05-15 17:48:04,560 - INFO - Error occurred: (psycopg2.OperationalError) could not translate host name "123@localhost" to address: Non-recoverable failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-15 17:57:18,711 - INFO - ETL Pipeline Started
+2026-05-15 17:57:18,814 - INFO - Data Extracted Successfully
+2026-05-15 17:57:18,922 - INFO - Data Transformed Successfully
+2026-05-15 17:57:18,990 - INFO - Error occurred: (psycopg2.OperationalError) could not translate host name "123@localhost" to address: Non-recoverable failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-15 18:10:29,181 - INFO - ETL Pipeline Started
+2026-05-15 18:10:29,297 - INFO - Data Extracted Successfully
+2026-05-15 18:10:29,409 - INFO - Data Transformed Successfully
+2026-05-15 18:10:30,177 - INFO - Data Loaded Successfully
