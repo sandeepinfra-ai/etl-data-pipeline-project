@@ -1,48 +1,175 @@
 # ETL Data Pipeline Project
 
-## Overview
-This project demonstrates a scalable ETL (Extract, Transform, Load) data pipeline using Python, SQL, Apache Airflow, PostgreSQL, and Docker.
+## Project Overview
 
-The pipeline extracts raw data, performs cleaning and transformation, and loads the processed data into PostgreSQL for analytics and reporting.
+This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using Python, Apache Airflow, Docker, and PostgreSQL.
 
-## Tech Stack
+The pipeline extracts employee sales data from CSV files, transforms the data using Pandas, and loads the processed data into PostgreSQL using Airflow DAG orchestration.
+
+---
+
+# Technologies Used
+
 - Python
-- SQL
-- PostgreSQL
 - Apache Airflow
 - Docker
-- Git & GitHub
+- PostgreSQL
+- Pandas
+- GitHub
 
-## Project Architecture
-Source Data → ETL Scripts → Data Cleaning → PostgreSQL → Airflow Automation
+---
 
-## Features
-- Automated ETL workflow
-- Data cleaning and transformation
-- PostgreSQL database integration
-- Airflow DAG scheduling
-- Docker containerization
-- Modular project structure
+# ETL Workflow
 
-## Folder Structure
+1. Extract data from CSV files
+2. Transform data using Python and Pandas
+3. Load transformed data into PostgreSQL
+4. Schedule and monitor pipeline using Airflow
+
+---
+
+# Project Structure
 
 ```bash
-airflow/
-architecture/
-data/
-screenshots/
-scripts/
-sql/
-README.md
-requirements.txt
+etl-data-pipeline-project/
+│
+├── airflow/
+│   └── docker-compose.yaml
+│
+├── dags/
+│   └── etl_dag.py
+│
+├── data/
+│   ├── employees.csv
+│   ├── sales_data.csv
+│   └── processed_data.csv
+│
+├── config/
+│   └── logger.py
+│
+├── screenshots/
+│   ├── dag-dashboard.png
+│   ├── dag-success-details.png
+│   ├── graph-view.png
+│   ├── docker-desktop-running.png
+│   └── project-structure.png
+│
+├── extract.py
+├── transform.py
+├── load.py
+├── run_pipeline.py
+├── requirements.txt
+├── README.md
+└── .env
+```
 
-## Future Improvements
+---
 
-- AWS deployment
-- Kafka streaming integration
-- Real-time data ingestion
-- CI/CD pipeline
-- Monitoring dashboard
- 
-## Author
-Venkata Sandeep Kumar Reddy
+# Airflow DAG Screenshots
+
+## DAG Dashboard
+
+![DAG Dashboard](screenshots/dag-dashboard.png)
+
+---
+
+## DAG Graph View
+
+![Graph View](screenshots/graph-view.png)
+
+---
+
+## DAG Success Details
+
+![DAG Success](screenshots/dag-success-details.png)
+
+---
+
+## Docker Running
+
+![Docker Running](screenshots/docker-desktop-running.png)
+
+---
+
+## Project Structure
+
+![Project Structure](screenshots/project-structure.png)
+
+---
+
+# How to Run Project
+
+## Step 1
+
+Clone repository
+
+```bash
+git clone <your-github-repo-link>
+```
+
+## Step 2
+
+Move into project folder
+
+```bash
+cd etl-data-pipeline-project
+```
+
+## Step 3
+
+Start Docker containers
+
+```bash
+docker compose up
+```
+
+## Step 4
+
+Open Airflow UI
+
+```bash
+http://localhost:8080
+```
+
+---
+
+# Airflow Login
+
+Username
+
+```bash
+admin
+```
+
+Password
+
+```bash
+admin
+```
+
+---
+
+# Features
+
+- Automated ETL pipeline
+- Airflow DAG orchestration
+- Docker containerization
+- PostgreSQL integration
+- Logging support
+- Modular project structure
+
+---
+
+# Future Improvements
+
+- Kafka Integration
+- AWS Deployment
+- PySpark Processing
+- Real-time Data Streaming
+- CI/CD Pipeline
+
+---
+
+# Author
+
+Sandeep Reddy
